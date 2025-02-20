@@ -1,0 +1,128 @@
+@font-face {
+    font-family: invincible;
+    src:url(fonts/CrashLandingBB.ttf)
+  }
+
+.invincible{
+    font-family: invincible;
+}
+
+
+
+body {
+    background-color: black;
+    color: red;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+
+ h1 {
+    font-family: invincible;
+    font-size: 5em;
+    margin: 5px 0;
+    list-style: 1.2;
+
+  }
+  h3 {
+    font-size: 1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0;
+    list-style: 1.2;
+}
+  p {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 0;
+    list-style: 1.2;
+  }
+
+  .mark1,.mark2 {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+
+
+  @media (min-width: 750px) {
+    body {
+        color:black;
+        background-color:#0054f0;
+    }
+
+    h1{
+        font-family: invincible;
+        font-size: 7em;
+    }
+
+    h3{
+        font-size: 2em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    p{ 
+        font-size: 1.5em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .mark2{
+        opacity: 100;
+
+    }
+    
+    .mark3{
+        opacity: 100;
+    }
+
+  }
+
+
+  @media (min-width: 1250px) {
+
+    body {
+        color:#ffe556;
+        background-color:#00bcf0;
+    }
+
+    h1{
+        font-family: invincible;
+        font-size: 10em;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 4em;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    p{ 
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  
+    .mark2{
+    opacity: 0;
+
+}
+
+    .mark3{
+    opacity: 0;
+}
+
+
+
+    .mark1{
+        opacity: 100;
+    }
+  }
+
+
+
+
+
+  
